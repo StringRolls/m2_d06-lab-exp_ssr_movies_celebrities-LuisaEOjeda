@@ -1,0 +1,35 @@
+
+<h2>Celebrities</h2>
+
+{{#each celebs}}
+<hr />
+  <h3>
+    Name:
+    {{name}}
+  </h3>
+
+  <h3>
+    Occupation:
+    {{occupation}}
+  </h3>
+
+  <h3>
+    Catch Phrase:
+    {{catchPhrase}}
+
+  </h3>
+  
+{{/each}}
+
+<a href="/">
+  Back to index
+</a>
+
+
+
+
+
+<!---- <a href="/celebrity/{{_id}}">Show details</a>Add an <h2> tag for the page's heading.
+Use a hbs #each loop to display tags with each celebrity's name.
+In the views/index.hbs (homepage) file:
+Add a link that goes to the /celebrities route.---->
